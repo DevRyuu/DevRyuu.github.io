@@ -1,4 +1,4 @@
 baseURL = 'https://DevRyuu.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'DevRyuu의 개발 노트'
 theme = 'hugo-theme-stack'
