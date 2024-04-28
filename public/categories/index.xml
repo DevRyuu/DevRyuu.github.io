@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on DevRyuu의 개발 노트</title>
-    <link>http://localhost:9591/categories/</link>
+    <link>http://localhost:9865/categories/</link>
     <description>Recent content in Categories on DevRyuu의 개발 노트</description>
     <generator>Hugo -- 0.125.4</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 09 Jan 2024 19:04:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:9591/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:9865/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>운영체제</title>
-      <link>http://localhost:9591/categories/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/</link>
+      <link>http://localhost:9865/categories/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:9591/categories/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/</guid>
+      <guid>http://localhost:9865/categories/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/</guid>
       <description></description>
     </item>
     <item>
       <title>컴퓨터</title>
-      <link>http://localhost:9591/categories/%EC%BB%B4%ED%93%A8%ED%84%B0/</link>
+      <link>http://localhost:9865/categories/%EC%BB%B4%ED%93%A8%ED%84%B0/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:9591/categories/%EC%BB%B4%ED%93%A8%ED%84%B0/</guid>
+      <guid>http://localhost:9865/categories/%EC%BB%B4%ED%93%A8%ED%84%B0/</guid>
       <description></description>
     </item>
     <item>
       <title>컴퓨터구조</title>
-      <link>http://localhost:9591/categories/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/</link>
+      <link>http://localhost:9865/categories/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:9591/categories/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/</guid>
+      <guid>http://localhost:9865/categories/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/</guid>
       <description></description>
     </item>
     <item>
       <title>Test</title>
-      <link>http://localhost:9591/categories/test/</link>
+      <link>http://localhost:9865/categories/test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:9591/categories/test/</guid>
+      <guid>http://localhost:9865/categories/test/</guid>
       <description>This is an example category</description>
     </item>
   </channel>
