@@ -8,16 +8,10 @@ type: docs
 고급스킬은 알아서
 
 ## Python(파이썬)
-
-Est in vagis et Pittheus tu arge accipiter regia iram vocatur nurus. Omnes ut
-olivae sensit **arma sorori** deducit, inesset **crudus**, ego vetuere aliis,
-modo arsit? Utinam rapta fiducia valuere litora _adicit cursu_, ad facies
+배워보자 파이썬
 
 ## Java(자바)
-
-Ea _furtique_ risere fratres edidit terrae magis. Colla tam mihi tenebat:
-miseram excita suadent es pecudes iam. Concilio _quam_ velatus posset ait quod
-nunc! Fragosis suae dextra geruntur functus vulgata.
+배워보자 자바
 
 ## Go(고)
 
@@ -34,9 +28,10 @@ sequens!
     }
 
 ## C
-
-Idmoniae ripis, at aves, ali missa adest, ut _et autem_, et ab?
+배워보자 C
 
 ## C++
+배워보자 C++
 
 ## RUST(러스트)
+배워보자 RUST
