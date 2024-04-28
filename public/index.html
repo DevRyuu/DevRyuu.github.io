@@ -1,257 +1,31 @@
-<!DOCTYPE html>
-<html lang="en" dir="auto">
-
-<head>
-	<meta name="generator" content="Hugo 0.125.4"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=9865&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
-<title>DevRyuu의 개발 노트</title>
-
-<meta name="description" content="">
-<meta name="author" content="">
-<link rel="canonical" href="http://localhost:9865/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.4599eadb9eb2ad3d0a8d6827b41a8fda8f2f4af226b63466c09c5fddbc8706b7.css" integrity="sha256-RZnq256yrT0KjWgntBqP2o8vSvImtjRmwJxf3byHBrc=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:9865/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:9865/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:9865/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:9865/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:9865/safari-pinned-tab.svg">
-<meta name="theme-color" content="#2e2e33">
-<meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:9865/index.xml">
-<link rel="alternate" hreflang="en" href="http://localhost:9865/">
-<noscript>
-    <style>
-        #theme-toggle,
-        .top-link {
-            display: none;
-        }
-
-    </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
-            }
-        }
-
-    </style>
-</noscript>
-</head>
-
-<body class="list" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
-
-<header class="header">
-    <nav class="nav">
-        <div class="logo">
-            <a href="http://localhost:9865/" accesskey="h" title="DevRyuu의 개발 노트 (Alt + H)">DevRyuu의 개발 노트</a>
-            <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="5"></circle>
-                        <line x1="12" y1="1" x2="12" y2="3"></line>
-                        <line x1="12" y1="21" x2="12" y2="23"></line>
-                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                        <line x1="1" y1="12" x2="3" y2="12"></line>
-                        <line x1="21" y1="12" x2="23" y2="12"></line>
-                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                    </svg>
-                </button>
-            </div>
-        </div>
-        <ul id="menu">
-            <li>
-                <a href="http://localhost:9865/" title="Home">
-                    <span class="active">Home</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:9865/page/about/" title="About">
-                    <span>About</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:9865/page/archives/" title="Archives">
-                    <span>Archives</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:9865/page/search/" title="Search (Alt &#43; /)" accesskey=/>
-                    <span>Search</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:9865/page/links/" title="Links">
-                    <span>Links</span>
-                </a>
-            </li>
-        </ul>
-    </nav>
-</header>
-<main class="main"> 
-
-<article class="first-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Archives
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p></p>
-  </div>
-  <footer class="entry-footer"><span title='2019-05-28 00:00:00 +0000 UTC'>May 28, 2019</span></footer>
-  <a class="entry-link" aria-label="post link to Archives" href="http://localhost:9865/page/archives/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">About
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
-Hugo makes use of a variety of open source projects including:
-https://github.com/yuin/goldmark https://github....</p>
-  </div>
-  <footer class="entry-footer"><span title='2019-02-28 00:00:00 +0000 UTC'>February 28, 2019</span></footer>
-  <a class="entry-link" aria-label="post link to About" href="http://localhost:9865/page/about/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Links
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>To use this feature, add links section to frontmatter.
-This page’s frontmatter:
-links: - title: GitHub description: GitHub is the world&#39;s largest software development platform. website: https://github.com image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png - title: TypeScript description: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. website: https://www.typescriptlang.org image: ts-logo-128.jpg image field accepts both local and external images.</p>
-  </div>
-  <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to Links" href="http://localhost:9865/page/links/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Search
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p></p>
-  </div>
-  <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to Search" href="http://localhost:9865/page/search/"></a>
-</article>
-    </main>
-    
-<footer class="footer">
-        <span>&copy; 2024 <a href="http://localhost:9865/">DevRyuu의 개발 노트</a></span> · 
-
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
-</footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
-</a>
-
-<script>
-    let menu = document.getElementById('menu')
-    if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
-    }
-
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
-            }
-        });
-    });
-
-</script>
-<script>
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-
-</script>
-</body>
-
-</html>
+<!doctype html><html lang=en dir=ltr><head><meta name=generator content="Hugo 0.125.4"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=12554&amp;path=livereload" data-no-instant defer></script><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="전투코딩#현업에 바로 사용할 수 있는 실전적인 코딩만 학습한다. 고급스킬은 알아서
+Python(파이썬)#Est in vagis et Pittheus tu arge accipiter regia iram vocatur nurus. Omnes ut olivae sensit arma sorori deducit, inesset crudus, ego vetuere aliis, modo arsit? Utinam rapta fiducia valuere litora adicit cursu, ad facies
+Java(자바)#Ea furtique risere fratres edidit terrae magis. Colla tam mihi tenebat: miseram excita suadent es pecudes iam. Concilio quam velatus posset ait quod nunc!"><meta name=theme-color media="(prefers-color-scheme: light)" content="#ffffff"><meta name=theme-color media="(prefers-color-scheme: dark)" content="#343a40"><meta name=color-scheme content="light dark"><meta property="og:url" content="http://localhost:12554/"><meta property="og:site_name" content="전투코딩의 개발 노트"><meta property="og:title" content="Introduction"><meta property="og:description" content="전투코딩#현업에 바로 사용할 수 있는 실전적인 코딩만 학습한다. 고급스킬은 알아서
+Python(파이썬)#Est in vagis et Pittheus tu arge accipiter regia iram vocatur nurus. Omnes ut olivae sensit arma sorori deducit, inesset crudus, ego vetuere aliis, modo arsit? Utinam rapta fiducia valuere litora adicit cursu, ad facies
+Java(자바)#Ea furtique risere fratres edidit terrae magis. Colla tam mihi tenebat: miseram excita suadent es pecudes iam. Concilio quam velatus posset ait quod nunc!"><meta property="og:locale" content="en"><meta property="og:type" content="website"><title>Introduction | 전투코딩의 개발 노트</title>
+<link rel=manifest href=/manifest.json><link rel=icon href=/favicon.png><link rel=canonical href=http://localhost:12554/><link rel=stylesheet href=/book.min.484e3cdc2f6e660df5c808d0eaf99198acde922db9728bc590485956e896548a.css integrity="sha256-SE483C9uZg31yAjQ6vmRmKzeki25covFkEhZVuiWVIo=" crossorigin=anonymous><script defer src=/flexsearch.min.js></script><script defer src=/en.search.min.78166b9d46e23e0ea915cb6887a30b633e7bc4fad10c8b6b9f6fa532271c19ba.js integrity="sha256-eBZrnUbiPg6pFctoh6MLYz57xPrRDItrn2+lMiccGbo=" crossorigin=anonymous></script><script defer src=/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js integrity="sha256-b2+Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC+NdcPIvZhzk=" crossorigin=anonymous></script><script async src="https://www.googletagmanager.com/gtag/js?id=G-MEASUREMENT_ID"></script><script>var dnt,doNotTrack=!1;if(!1&&(dnt=navigator.doNotTrack||window.doNotTrack||navigator.msDoNotTrack,doNotTrack=dnt=="1"||dnt=="yes"),!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-MEASUREMENT_ID")}</script><link rel=alternate type=application/rss+xml href=http://localhost:12554/index.xml title="전투코딩의 개발 노트"></head><body dir=ltr><input type=checkbox class="hidden toggle" id=menu-control>
+<input type=checkbox class="hidden toggle" id=toc-control><main class="container flex"><aside class=book-menu><div class=book-menu-content><nav><h2 class=book-brand><a class="flex align-center" href=/><span>전투코딩의 개발 노트</span></a></h2><div class=book-search><input type=text id=book-search-input placeholder=Search aria-label=Search maxlength=64 data-hotkeys=s/><div class="book-search-spinner hidden"></div><ul id=book-search-results></ul></div><ul><li><a href=https://github.com/DevRyuu target=_blank rel=noopener>Github</a></li></ul></nav><script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script></div></aside><div class=book-page><header class=book-header><div class="flex align-center justify-between"><label for=menu-control><img src=/svg/menu.svg class=book-icon alt=Menu>
+</label><strong>Introduction</strong>
+<label for=toc-control><img src=/svg/toc.svg class=book-icon alt="Table of Contents"></label></div><aside class="hidden clearfix"><nav id=TableOfContents><ul><li><a href=#전투코딩>전투코딩</a><ul><li><a href=#python파이썬>Python(파이썬)</a></li><li><a href=#java자바>Java(자바)</a></li><li><a href=#go고>Go(고)</a></li><li><a href=#c>C</a></li><li><a href=#c-1>C++</a></li><li><a href=#rust러스트>RUST(러스트)</a></li></ul></li></ul></nav></aside></header><article class="markdown book-article"><h1 id=전투코딩>전투코딩
+<a class=anchor href=#%ec%a0%84%ed%88%ac%ec%bd%94%eb%94%a9>#</a></h1><p>현업에 바로 사용할 수 있는 실전적인 코딩만 학습한다.
+고급스킬은 알아서</p><h2 id=python파이썬>Python(파이썬)
+<a class=anchor href=#python%ed%8c%8c%ec%9d%b4%ec%8d%ac>#</a></h2><p>Est in vagis et Pittheus tu arge accipiter regia iram vocatur nurus. Omnes ut
+olivae sensit <strong>arma sorori</strong> deducit, inesset <strong>crudus</strong>, ego vetuere aliis,
+modo arsit? Utinam rapta fiducia valuere litora <em>adicit cursu</em>, ad facies</p><h2 id=java자바>Java(자바)
+<a class=anchor href=#java%ec%9e%90%eb%b0%94>#</a></h2><p>Ea <em>furtique</em> risere fratres edidit terrae magis. Colla tam mihi tenebat:
+miseram excita suadent es pecudes iam. Concilio <em>quam</em> velatus posset ait quod
+nunc! Fragosis suae dextra geruntur functus vulgata.</p><h2 id=go고>Go(고)
+<a class=anchor href=#go%ea%b3%a0>#</a></h2><p>Lorem <strong>markdownum</strong> emicat gestu. Cannis sol pressit ducta. <strong>Est</strong> Idaei,
+tremens ausim se tutaeque, illi ulnis hausit, sed, lumina cutem. Quae avis
+sequens!</p><pre><code>var panel = ram_design;
+if (backup + system) {
+    file.readPoint = network_native;
+    sidebar_engine_device(cell_tftp_raster,
+            dual_login_paper.adf_vci.application_reader_design(
+            graphicsNvramCdma, lpi_footer_snmp, integer_model));
+}
+</code></pre><h2 id=c>C
+<a class=anchor href=#c>#</a></h2><p>Idmoniae ripis, at aves, ali missa adest, ut <em>et autem</em>, et ab?</p><h2 id=c-1>C++
+<a class=anchor href=#c-1>#</a></h2><h2 id=rust러스트>RUST(러스트)
+<a class=anchor href=#rust%eb%9f%ac%ec%8a%a4%ed%8a%b8>#</a></h2></article><footer class=book-footer><div class="flex flex-wrap justify-between"><div><a class="flex align-center" href=https://github.com/DevRyuu/DevRyuu.github.io/edit/main/exampleSite//content/index.md target=_blank rel=noopener><img src=/svg/edit.svg class=book-icon alt>
+<span>Edit this page</span></a></div></div><script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script></footer><div class=book-comments><div id=disqus_thread></div><script>window.disqus_config=function(){},function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById("disqus_thread").innerHTML="Disqus comments not available by default when the website is previewed locally.";return}var t=document,e=t.createElement("script");e.async=!0,e.src="//your-disqus-shortname.disqus.com/embed.js",e.setAttribute("data-timestamp",+new Date),(t.head||t.body).appendChild(e)}()</script><noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript><a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a></div><label for=menu-control class="hidden book-menu-overlay"></label></div><aside class=book-toc><div class=book-toc-content><nav id=TableOfContents><ul><li><a href=#전투코딩>전투코딩</a><ul><li><a href=#python파이썬>Python(파이썬)</a></li><li><a href=#java자바>Java(자바)</a></li><li><a href=#go고>Go(고)</a></li><li><a href=#c>C</a></li><li><a href=#c-1>C++</a></li><li><a href=#rust러스트>RUST(러스트)</a></li></ul></li></ul></nav></div></aside></main></body></html>
